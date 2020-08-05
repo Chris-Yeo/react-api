@@ -41,6 +41,7 @@ const App = () => {
                     <div className="image"><img src={item.urlToImage} alt="news" /></div>
                     <div className="title"> <h3>{item.title}</h3></div>
                     <div className="description"><p>{item.description}</p></div>
+                    <a href={item.url} className="link"><i className="fas fa-eye"><span>&nbsp; Read Article</span></i></a>
                   </div>
                 
             ))

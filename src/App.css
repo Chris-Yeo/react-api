@@ -1,3 +1,7 @@
+* {
+  font-family: 'Recursive', sans-serif;
+}
+
 .lds-circle {
   display: inline-block;
   transform: translateZ(1px);
@@ -54,4 +58,13 @@
 
 h2 {
   padding-top: 50px;
+}
+
+.fa-eye {
+  color: red;
+
+}
+
+.whole span {
+  font-family: 'Recursive', sans-serif;
 }
