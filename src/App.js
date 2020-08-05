@@ -10,7 +10,7 @@ const App = () => {
   const [errorMessage, setErrorMessage] = useState ();
 
   useEffect (() => {
-    const url='https://api.giphy.com/v1/gifs/search?q=food&api_key=Vls5MyeXXm31FecUyfEfuLCaEPMF287H&limit=9';
+    const url='https://api.giphy.com/v1/gifs/search?q=power+rangers&api_key=Vls5MyeXXm31FecUyfEfuLCaEPMF287H&limit=9';
     axios.get(url)
     .then(function(result) {
       console.log(result)
