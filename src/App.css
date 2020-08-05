@@ -33,7 +33,9 @@
 
 .content img {
   width: 350px;
+  height: 250px;
   border-radius: 10px;
+  object-fit: cover;
 }
 
 .whole {
